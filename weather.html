@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href="/images/favicon.ico">
+      <title>Bootstrap demo</title>
+      
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+      <link rel="stylesheet" href="./weather_style.css">
+    </head>
+<body>
+
+   <header class="header">
+      <h1 class="heading-name">inFlight</h1>
+      <nav>
+          <ul class="tabs-top">
+            <li>
+              <a href="./index.html">Home</a>
+          </li>
+          <li>
+              <a href="./flight_status.html">Flights </a>
+          </li>
+          <li>
+              <a href="./weather.html">Weather</a>
+          </li>
+          <li>
+              <a href="./flight_info.html">Airport</a>
+          </li>
+          <li>
+            <a href="#container">Contact</a>
+        </li>
+          </ul>
+      </nav>
+  </header>
+
+
+
+   <div class="weather-app">
+      <div class="container">
+         <h3 class="brand">The weather</h3>
+         <div>
+            <h1 class="temp">16&#176;</h1>
+            <div class="city-time">
+               <h1 class="name">London</h1>
+               <small>
+                  <span class="time">06:09</span>
+                  -
+                  <span class="date">Monday Sep 19</span>
+               </small>
+            </div>
+            <div class="weather">
+               <img 
+                  src="./icons/day/113.png" 
+                  alt="Icon"
+                  class="icon"
+                  width="50"
+                  height="50"/>
+                  <span class="condition">Cloudy</span>
+            </div>
+         </div>
+      </div>
+      <div class="panel">
+         <form id="locationInput">
+            <input
+               type="text"
+               class="search"
+               placeholder="Search Location..."
+               />
+         <button type="submit" class="submit">
+            <img src="./images/search.png" width="35px" height="35px" width="20" />
+            <i class="fas fa-search"></i>
+         </button>
+         </form>
+        <ul class="cities">
+            <li class="city">New York</li>
+            <li class="city">San Francisco</li>
+            <li class="city">Paris</li>
+            <li class="city">Madrid</li>
+            <li class="city">Tokyo</li>
+        </ul> 
+        
+        <ul class="details">
+         <h4>Weather Details</h4>
+         <li>
+            <span>Cloudy</span>
+            <span class="cloud"></span>
+         </li>
+         <li>
+            <span>Humidity</span>
+            <span class="humidity"></span>
+         </li>
+         <li>
+            <span>Wind</span>
+            <span class="wind"></span>
+         </li>
+        </ul>
+      </div>
+   </div>
+   <script src="./weather.js"></script>
+</body>
+</html>

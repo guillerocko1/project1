@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    
+    <link rel="stylesheet" href="./style.css">
+    <!--<script src="./Traffic.js" defer></script>-->
+    <title>inFlight</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="heading-name">inFlight</h1>
+        <nav>
+            <ul class="tabs-top">
+              <li>
+                <a href="#Flight">Home</a>
+            </li>
+            <li>
+                <a href="./flight_status.html">Flights </a>
+            </li>
+            <li>
+                <a href="./weather.html">Weather</a>
+            </li>
+            <li>
+                <a href="./flight_info.html">Airport</a>
+            </li>
+            <li>
+              <a href="#container">Contact</a>
+          </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div class="top-image">
+        <img src="./assets/header_resized.jpg" alt="flightInTheSky">
+    </div>
+    <div class="top-page">
+        <p>Track any flight, enroute, anytime.</p>
+    </div>
+
+    <div class="statusCheck">
+        <div class="track-flight">
+            <p>Track any flight around the world.</p>
+        </div>
+        <div class="get-status">
+            <p>inFlight helps you get the status of any flight around the world, whether it’s enroute or landed.</p>
+        </div>
+       
+    </div>
+  
+    
+    <div class="checkboxes">
+      <form action="#" id="form">
+        <p>
+          <label>
+            <input class="with-gap" id="radio1" name="group1" type="radio" value="1" checked />
+            <span>Check Flight Information</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input  class="with-gap"  id="radio2" name="group1" type="radio"  value="2"/>
+            <span>Check Weather Information</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input class="with-gap"  id="radio3" 
+            name="group1" type="radio" value="3"/>
+            <span>Traffic around destination</span>
+          </label>
+        </p>      
+        
+      </form>
+    </div> 
+    <div class="btn_container">
+      <button id="btn_status" class="status_btn">Check Status</button></div>
+  </main>
+    
+    <footer class="footer">
+      <div id="container">
+        <div id="div1">
+          <p id="inflight">inFlight</p>
+          <p id="inflightInf">inFlight helps you get the status of any flight around the world, whether it’s enroute or landed.</p>
+        </div>
+  
+        <div id="div2">
+          <a href="./flight_status.html">
+          <p class="title">Flight Status</p>
+          <hr>
+  
+              <a href="./flight_status.html">
+          <img src="./assets/airplane.png" 
+                      alt="weather" 
+                      class="weather_footer" /></a>
+          <p id="small-sign">Up to 35% the skies around you or anywhere in the world using our Inflight Website</p>
+          <p class="title">Weather Information</p>
+          <hr>
+          <a href="./weather.html">
+          <img src="./assets/departure.png" 
+                      alt="weather" 
+                      class="weather_footer" /></a>
+          <p id="small-sign">
+            Browse 100s of Offers. Find the Best Flight Deals with Cheapflights®</p>
+          <p class="title">Weather Information</p>
+          <hr>
+          <a href="./weather_info.html">
+          <img src="./assets/clouds-sun.png" 
+                      alt="weather" 
+                      class="weather_footer" /></a>
+          <p id="small-sign">Stay One Step Ahead With The MyAcuRite®. Connect your weather station and view real-time conditions from anywhere. Build your personalized weather dashboard.</p>
+        </div>
+        <div id="div3">
+          <p class="title">Follow Us</p>
+          <hr>
+          <img src="./assets/facebook.png" 
+                      alt="weather" 
+                      class="social_icons" />
+          <img src="./assets/twitter.png" 
+                      alt="social_icons" 
+                      class="social_icons" />
+          <img src="./assets/instagram.png" 
+                      alt="social_icons" 
+                      class="social_icons" />
+                      <img src="./assets/youtube.png" 
+                      alt="social_icons" 
+                      class="social_icons" />
+          <p>© 2022 InFlight, Inc. All rights reserved.</p>
+          
+        </div>
+      </div>
+      
+    </footer>
+    <script src="./script.js"></script> 
+    </body>
+  </html>
+  

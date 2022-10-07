@@ -36,5 +36,5 @@ Technologies used in this project:
 - Bulma
 
 
-![main_window][(https://github.com/guillerocko1/project1/images/main.png)]
+![main_window][([https://github.com/guillerocko1/project1/images/main.png](https://github.com/guillerocko1/project1/blob/main/images/main.png))]
 

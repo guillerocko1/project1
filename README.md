@@ -1,6 +1,6 @@
 # project1
 
-Deployment Link: ![Index][([https://github.com/guillerocko1/project1/blob/main/images/flight_status.png](https://guillerocko1.github.io/project1/))]
+Deployment Link: ![Index][((https://guillerocko1.github.io/project1/))]
 
 This project allows the user to get information about a flight status from the irlines availables, the website provide important information about the flight, for example, Flight number, Flight status, Departure terminal, Estimated Arriving time. The user needs to choose the Airline name and the date to get that information.
 Also, the website offers the information about the Weather of any city of the world. The user can select one of the city that are already defined for default(New York, San Francisco, Paris, Madrid, Tokyo) or the user can enter the name of the city and the website will show all the information about the weather.(Cloudy, Humidity, Wind).

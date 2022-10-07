@@ -35,6 +35,16 @@ Technologies used in this project:
 - JQuery
 - Bulma
 
+To have an idea about the interface of our website, you can click the link and see some graphic representation of our website.
 
+- Main Page
 ![main_window][([https://github.com/guillerocko1/project1/images/main.png](https://github.com/guillerocko1/project1/blob/main/images/main.png))]
 
+-Flight Status 
+![main_window][(https://github.com/guillerocko1/project1/blob/main/images/flight_status.png)]
+
+-Weather Information 
+![main_window][(https://github.com/guillerocko1/project1/blob/main/images/airport.png)]
+
+-Airport Traffic
+![main_window][(https://github.com/guillerocko1/project1/blob/main/images/footer.png))]

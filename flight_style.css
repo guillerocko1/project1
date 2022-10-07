@@ -1,0 +1,291 @@
+
+body{
+   height: auto;
+   /* border:10px solid yellow; */
+   
+}
+
+nav > ul > li > a{
+  color:white;
+  font-size: 20px;;
+}
+
+.container{
+   width: 95%;
+   display: flex;
+   justify-content: center;
+   border:10px solid darkgray;
+   padding-top: 200px;
+   padding-bottom: 40px;
+   background-color: lightblue;
+    color:darkblue;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    font-weight: bold;
+
+
+}
+/***********************/
+.header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #3331BC;
+  color: #ffffff;
+  opacity: 0.9;
+  /* position:fixed; */
+  justify-content: flex-end;
+  width:100%;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+  height: 125px;
+  
+}
+
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  position:sticky;
+}
+
+
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+} 
+
+/*Menu effects*/
+/* unvisited link */
+
+a:link {
+  color: white;
+  font-size:16px
+}
+
+
+/* mouse over link */
+a:hover {
+  
+  font-size:19px
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+} 
+/**/
+
+/* mouse over link */
+.container a{
+  color: blue;
+ 
+}
+
+#airport{
+  text-align: center;
+  color: darkblue;
+}
+
+.footer {
+   /* position: absolute; */
+   
+   background-color: orange;
+ width: 100%;
+ height: 500px;
+ left: 134px;
+ top: 4607px;
+ font-size: 2em;
+ font-weight: 400;
+ margin-top: 5em;
+ padding-top: 0;
+ 
+ 
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 18px;
+ line-height: 40px;
+ 
+ color: #141313;
+ }
+ 
+ .footer #container{
+   padding-top: 0;
+   display: flex;
+   background-color: orange;
+   align-content: center;
+   
+   
+ }
+ 
+ #container div{
+   align-items: center;
+   margin: 20px;
+   width:100%;
+   padding:20px; 
+ }
+ 
+ 
+ 
+ .footer #inflight{
+   color:white;
+   box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 8px;
+   font-size: 2.5em;
+   padding-left: 20px;
+   text-align: center;
+   height: 90px;
+   padding-top: 35px;
+   font-weight: bold;
+   
+ }
+ 
+ .social_icons{
+ box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 8px;
+ }
+ 
+ .weather_footer{
+ box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 18px;
+   
+ }
+ 
+ .footer #inflightInf{
+   color: white;
+   
+   font-size: 1em;
+   padding-left: 20px; 
+ }
+ 
+ #div2 .title, #div3 .title{
+   font-size: 1em;
+   padding-bottom: 0;
+ }
+ 
+ .footer #listInfo{
+   color: white;
+   
+   font-size: 1em;
+   padding-left: 20px;
+   
+ }
+ 
+ .footer #div2{
+   color: white;
+   justify-content: right;
+   font-size: 1em; 
+ }
+ 
+ .footer #div3{
+   color:white;
+   justify-content: right;
+   font-size: 1em; 
+ }
+ 
+ .weather_footer {
+   height: 45px;
+   width: 45px;
+   padding-bottom: 0;
+ }
+ 
+ .social_icons {
+   height: 40px;
+   width: 40px;
+   padding-bottom: 0;
+   margin-left: 15px;
+ }
+ 
+ #div2 p, #div3 p{
+   
+   font-size: 0.7em;
+   line-height: 1.7;
+ }
+ 
+ #small-sign{
+   margin-bottom: 20px;
+   margin-top: 0;
+ }
+ 
+ .container{
+   display:flex;
+   align-items: center;
+ }
+ 
+ .checkboxes{
+   height: 200px;
+   position: absolute;
+   top: 150%;
+   bottom: 50%;
+   left: 660px;
+   right: 40px;
+   margin: 200px;
+   font-size: xx-large;
+   font-style: normal;
+   
+ }
+ 
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+  
+    .tabs-top{
+      font-size: 10px;
+    }
+  
+    .top-page{
+      font-size: larger;
+    }
+  
+    .track-flight{
+      font-size:large;
+    }
+  
+    .get-status{
+      font-size:medium;
+    }
+  
+    .footer #inflight{
+      font-size: 1.5em;
+      text-align: center;
+      width: 110px;
+      height: 50px;
+      padding-top: 5px;
+      padding-left: 0;
+    }
+  
+    .footer #inflightInf{
+      font-size: 16px;
+    }
+  
+    .status_btn {
+      font-size: 25px;
+    }
+  
+    #form > p > label{
+      font-size: 18px;
+    }
+  
+    .header{
+      height: 150px; 
+    }
+  
+    #airport h2{
+      font-size: 18px;
+    }
+
+    
+    
+  }

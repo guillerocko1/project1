@@ -1,0 +1,448 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #3331BC !important;
+  height: 125px; 
+}
+
+.tabs-top > li > a{
+  color: white;
+  /* border: 10px solid red; */
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header nav {
+  
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  position:sticky;
+  background-color: #3331BC;
+  
+  /* border: 10px solid red */
+}
+
+.header nav ul {
+  list-style-type: none;
+  justify-content: right;
+    
+
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px; 
+  
+} 
+
+/*Menu effects*/
+/* unvisited link */
+
+a:link {
+  color: white;
+  font-size:16px
+}
+
+
+/* mouse over link */
+a:hover {
+  
+  font-size:19px
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+} 
+/**/
+
+
+.heading-name {
+  margin-right: auto;
+  font-weight: bolder;
+  font-size: 2.5em;
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+.tabs-top {
+  list-style: none;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  gap: 1.7em;
+  font-size: 1.5em;
+  margin-right: 1em;
+}
+
+.top-page {
+  position: absolute;
+  width: 100%;
+
+  height: 2.5em;
+  left: 0.2em;
+  top: 2em;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 95px;
+  line-height: 124px;
+  text-align: center;
+  color: #f0e8e8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.track-flight {
+  font-size: 4em;
+  font-weight: 800;
+  margin-top: 2.5em;
+  text-align: center;
+  color: #1144C9;
+}
+
+.get-status {
+  font-size: 2em;
+  font-weight: 400;
+  margin-top: 1em;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #070300;
+
+}
+
+.btn_container {
+  text-align: center;
+  margin: 2em;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.status_btn {
+  background-color: orange;
+  border-color: orange;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  padding: 0.2em 1em 0.2em 1em;
+
+}
+
+.status label {
+margin-top: 200px;
+margin-left: 15%;
+z-index: 1;
+font-size: x-large;
+width: 50%;
+padding-top: 75px;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.status input {
+margin-left: 15%;
+z-index: 1;
+font-size: x-large;
+width: 50%;
+display: flex;
+}
+
+.information {
+padding-bottom: 30px;
+width: 750px;
+height: 500px;
+margin: 0 auto;
+background-image: url("./assets/wing.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+}
+
+.information label {
+margin-top: 200px;
+margin-left: 15%;
+z-index: 1;
+font-size: x-large;
+width: 50%;
+padding-top: 75px;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.information input {
+margin-left: 15%;
+font-size: x-large;
+width: 50%;
+display: flex;
+}
+
+.weather {
+padding-bottom: 30px;
+width: 750px;
+height: 500px;
+margin: 0 auto;
+background-image: url("./assets/weather.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+}
+
+.weather label {
+margin-top: 200px;
+margin-left: 15%;
+z-index: 1;
+font-size: x-large;
+width: 50%;
+padding-top: 75px;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.weather input {
+margin-left: 15%;
+z-index: 1;
+font-size: x-large;
+width: 50%;
+display: flex;
+}
+
+.checkboxes{
+  padding: 30px 30px 30px 30px;
+  /* margin-top: 40px; */
+  justify-content: center;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 18px;
+    height: 200px;
+    width: 400px;
+    /* margin: 200px; */
+    font-size: x-large;
+    margin:auto
+   
+}
+
+
+
+  
+.footer {
+    /* position: absolute; */
+    
+    background-color: orange;
+  width: 100%;
+  height: 350px;
+  left: 134px;
+  top: 4607px;
+  font-size: 2em;
+  font-weight: 400;
+  margin-top: 10em;
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  
+  color: #141313;
+  }
+  
+  .footer #container{
+    display: flex;
+    background-color: orange;
+    align-content: center;
+  }
+  
+  #container div{
+    align-items: center;
+    margin: 20px;
+    width:100%;
+    padding:20px; 
+  }
+  
+  .footer #inflight{
+    color:white;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    font-size: 2.5em;
+    padding-left: 20px;
+    text-align: center;
+    height: 90px;
+    padding-top: 35px;
+    
+  }
+  
+  .social_icons{
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+  }
+  
+  .weather_footer{
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 18px;
+    
+  }
+  
+  .footer #inflightInf{
+    color: white;
+    
+    font-size: 1em;
+    padding-left: 20px;
+    
+    
+  }
+  
+  #div2 .title, #div3 .title{
+    font-size: 1em;
+    padding-bottom: 0;
+  }
+  
+  .footer #listInfo{
+    color: white;
+    
+    font-size: 1em;
+    padding-left: 20px;
+    
+  }
+  
+  .footer #div2{
+    color: white;
+    justify-content: right;
+    font-size: 1em; 
+  }
+  
+  .footer #div3{
+    color:white;
+    justify-content: right;
+    font-size: 1em; 
+  }
+  
+  .weather_footer {
+    height: 45px;
+    width: 45px;
+    padding-bottom: 0;
+  }
+  
+  .social_icons {
+    height: 40px;
+    width: 40px;
+    padding-bottom: 0;
+    margin-left: 15px;
+  }
+  
+  #div2 p, #div3 p{
+    
+    font-size: 0.7em;
+    line-height: 1.7;
+  }
+  
+  #small-sign{
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  .container{
+    display:flex;
+    align-items: center;
+  }
+
+  /* Use a media query to add a breakpoint at 800px: */
+
+
+  
+@media screen and (max-width: 800px) {
+
+  .header {
+    
+    display:block;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    
+  }
+
+  .tabs-top a{
+    font-size: 14px;
+    
+  }
+
+  .header h1{
+    font-size: 30px;
+  }
+  
+  .tabs-top{
+    font-size: 10px;
+    z-index: -1;
+  }
+
+  .top-page{
+    font-size: larger;
+  }
+
+  .top-page p{
+    padding-top: 60px;
+  }
+
+  .track-flight{
+    font-size:large;
+  }
+
+  .get-status{
+    font-size:medium;
+  }
+
+  .footer #inflight{
+    font-size: 1.5em;
+    text-align: center;
+    width: 110px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 0;
+  }
+
+  .footer #inflightInf{
+    font-size: 16px;
+  }
+
+  .status_btn {
+    font-size: 25px;
+  }
+
+  #form > p > label{
+    font-size: 18px;
+  }
+
+  .header{
+    height: 150px; 
+  }
+  .panel, .container {
+    position: relative;
+    width: 100%;
+    top: initial;
+ }
+
+}
+  
+
+
+
+  
+
+
+  
+  
+  
+
